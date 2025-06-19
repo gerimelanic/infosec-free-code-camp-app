@@ -8,9 +8,7 @@ app.listen(PORT, () => {
   console.log(`🦾Geri Melanic Info Security App Started on Port ${PORT}`);
 });
 
-const userRoutes = require('./routes/userRoutes'); // ✅ Correct import
-app.use('/users', userRoutes); // ✅ Correct usage
-app.listen(3000, () => console.log('Server running on port 3000'));
+
 
 
 
